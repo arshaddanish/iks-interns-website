@@ -1,0 +1,51 @@
+.cta {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../img/cta-bg.jpg") center center;
+  background-size: cover;
+  padding: 80px 0;
+
+  h3 {
+    color: #364146;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  p {
+    color: #576971;
+  }
+
+  .cta-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #009cea;
+
+    &:hover {
+      background: #008bd1;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 769px) {
+  .cta .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

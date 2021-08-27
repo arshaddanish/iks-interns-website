@@ -1,0 +1,23 @@
+{
+  "name": "iks-interns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshaddanish/IKS-Interns-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arshaddanish/IKS-Interns-Website/issues"
+  },
+  "homepage": "https://github.com/arshaddanish/IKS-Interns-Website#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

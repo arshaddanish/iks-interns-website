@@ -604,10 +604,10 @@
 .team .members {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
   justify-items: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .team .member {

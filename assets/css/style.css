@@ -605,6 +605,11 @@
   padding-bottom: 2.5rem;
 }
 
+.team .section-title p {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .team .members {
   display: -ms-grid;
   display: grid;

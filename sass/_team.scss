@@ -115,3 +115,7 @@
     }
   }
 }
+
+.team .mentor-team .members {
+  grid-template-columns: repeat(4, 1fr);
+}

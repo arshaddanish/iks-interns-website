@@ -597,8 +597,9 @@
 }
 
 .team .content-team,
-.team .design-team {
-  padding-bottom: 2rem;
+.team .design-team,
+.team .web-team {
+  padding-bottom: 3rem;
 }
 
 .team .section-title {

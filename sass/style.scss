@@ -35,6 +35,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

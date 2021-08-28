@@ -8,11 +8,20 @@
   }
 
   .content {
+    max-width: 650px;
+    margin: auto;
+
     h3 {
       font-weight: 400;
       font-size: 32px;
       color: #364146;
       font-family: "Poppins", sans-serif;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1rem;
     }
 
     ul {

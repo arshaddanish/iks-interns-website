@@ -596,8 +596,13 @@
   background: #f7f8f9;
 }
 
+.team .content-team,
+.team .design-team {
+  padding-bottom: 2rem;
+}
+
 .team .section-title {
-  padding-bottom: 4rem;
+  padding-bottom: 2.5rem;
 }
 
 .team .members {

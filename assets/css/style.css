@@ -565,14 +565,13 @@
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #009cea;
   margin: 0 2px;
-  font-size: 24px;
+  font-size: 1rem;
   display: inline-block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background: #eaf8ff;
-  border-radius: 50px;
-  line-height: 0;
-  padding: 6px;
+  border-radius: 1rem;
+  padding: 10px 20px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {

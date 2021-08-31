@@ -466,6 +466,10 @@
   border-color: #2282ff;
 }
 
+.portfolio .section-title {
+  padding-bottom: 3rem;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }

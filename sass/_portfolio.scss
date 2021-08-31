@@ -118,6 +118,10 @@
       .portfolio-info {
         opacity: 1;
         top: calc(50% - 48px);
+
+        h4 {
+          font-weight: 700;
+        }
       }
 
       .portfolio-links {

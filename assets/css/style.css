@@ -1217,6 +1217,12 @@
   background: #0075ea;
 }
 
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description {
+    padding: 0 1rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/

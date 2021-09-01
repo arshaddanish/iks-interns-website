@@ -392,6 +392,10 @@
   padding-bottom: 3rem;
 }
 
+.services .section-title span {
+  font-weight: 600;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;

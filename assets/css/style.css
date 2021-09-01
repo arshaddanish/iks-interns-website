@@ -1199,6 +1199,22 @@
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  margin-bottom: 2rem;
+}
+
+.portfolio-details .portfolio-description .portfolio-btn {
+  color: #fff;
+  font-size: 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #009cea;
+  border-radius: 1rem;
+  padding: 10px 30px;
+}
+
+.portfolio-details .portfolio-description .portfolio-btn:hover {
+  color: #fff;
+  background: #009cea;
 }
 
 /*--------------------------------------------------------------

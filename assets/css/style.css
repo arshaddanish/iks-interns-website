@@ -696,6 +696,17 @@
   overflow: hidden;
 }
 
+.team .member .member-img .freak {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.team .member .member-img .freak:hover {
+  opacity: 1;
+}
+
 .team .member .social {
   position: absolute;
   left: 0;

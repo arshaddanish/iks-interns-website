@@ -28,6 +28,17 @@
     .member-img {
       position: relative;
       overflow: hidden;
+
+      .freak {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
 
     .social {

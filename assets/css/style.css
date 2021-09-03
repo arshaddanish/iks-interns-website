@@ -334,6 +334,12 @@
   }
 }
 
+@media (max-width: 576px) {
+  #hero .text-center-div {
+    text-align: center;
+  }
+}
+
 .about {
   padding: 0;
   margin-top: 40px;

@@ -646,7 +646,7 @@
   overflow: hidden;
 }
 
-.team .member .member-img .freak {
+.team .member .member-img .original {
   position: absolute;
   top: 0;
   left: 0;
@@ -655,7 +655,7 @@
   transition: all 1s;
 }
 
-.team .member .member-img .freak:hover {
+.team .member .member-img .original:hover {
   opacity: 1;
   -webkit-animation: image_blur 1s;
           animation: image_blur 1s;

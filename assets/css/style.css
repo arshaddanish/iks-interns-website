@@ -613,9 +613,8 @@
 
 .team .mentor-team,
 .team .content-team,
-.team .design-team,
-.team .web-team {
-  padding-bottom: 3rem;
+.team .design-team {
+  padding-bottom: 5rem;
 }
 
 .team .section-title {
@@ -627,8 +626,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .team .member {

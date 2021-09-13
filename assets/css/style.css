@@ -536,6 +536,10 @@
   opacity: 0;
 }
 
+.portfolio .portfolio-wrap img {
+  width: 100%;
+}
+
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;

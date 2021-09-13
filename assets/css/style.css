@@ -1311,9 +1311,9 @@ h6 {
   font-size: 28px;
   margin: 0;
   line-height: 0;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #header .logo h1 a {

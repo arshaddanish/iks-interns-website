@@ -745,6 +745,11 @@
 .mentor-team .members {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.mentor-team .members .member {
+  max-width: 250px;
 }
 
 @media (max-width: 992px) {

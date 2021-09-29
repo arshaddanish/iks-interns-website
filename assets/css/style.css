@@ -1139,6 +1139,27 @@
   padding-top: 40px;
 }
 
+.portfolio-details .reports {
+  padding-top: 2rem;
+  min-height: 40vh;
+}
+
+.portfolio-details .reports .portfolio-btn {
+  color: #fff;
+  font-size: 1rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background: #009cea;
+  border-radius: 1rem;
+  padding: 10px 30px;
+  margin: 0 0.5rem;
+}
+
+.portfolio-details .reports .portfolio-btn:hover {
+  color: #fff;
+  background: #0075ea;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }

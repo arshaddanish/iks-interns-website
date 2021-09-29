@@ -1149,6 +1149,7 @@
 }
 
 .portfolio-details .reports .portfolio-btn {
+  display: inline-block;
   color: #fff;
   font-size: 1rem;
   -webkit-transition: 0.3s ease-in-out;
@@ -1156,7 +1157,8 @@
   background: #009cea;
   border-radius: 1rem;
   padding: 10px 30px;
-  margin: 0 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
 }
 
 .portfolio-details .reports .portfolio-btn:hover {

@@ -336,7 +336,7 @@
 
 @media (max-width: 576px) {
   #hero {
-    padding: 1.5rem 0 2rem;
+    padding: 1rem 0 2rem;
   }
   #hero .text-center-div {
     text-align: center;

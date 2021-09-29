@@ -538,6 +538,7 @@
 
 .portfolio .portfolio-wrap img {
   width: 100%;
+  min-height: 170px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {

@@ -1,7 +1,3 @@
-$(window).on("load", function () {
-  $(".loader-wrapper").fadeOut("slow");
-});
-
 window.addEventListener("load", () => {
   AOS.init({
     duration: 1000,

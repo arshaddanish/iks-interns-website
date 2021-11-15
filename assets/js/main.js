@@ -1,11 +1,15 @@
-// window.addEventListener("load", () => {
-//   AOS.init({
-//     duration: 1000,
-//     easing: "ease-in-out",
-//     once: true,
-//     mirror: false,
-//   });
-// });
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
+
+window.addEventListener("load", () => {
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out",
+    once: true,
+    mirror: false,
+  });
+});
 
 (function () {
   "use strict";

@@ -15,7 +15,7 @@ export default function Contact() {
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>IEEE Kerala Section, Kerala, India.</p>
+                <p>IEEE Kerala Section, Kerala, India</p>
               </div>
 
               <div class="email">

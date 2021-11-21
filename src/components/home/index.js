@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./about/About";
+import Contact from "./contact/Contact";
 import Landing from "./landing/Landing";
 import Portfolio from "./portfolio/Portfolio";
 import Services from "./services/Services";
@@ -14,6 +15,7 @@ export default function Home() {
         <Services />
         <Portfolio />
         <Team />
+        <Contact />
       </main>
     </div>
   );

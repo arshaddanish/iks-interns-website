@@ -1,0 +1,138 @@
+.portfolio {
+  .section-title {
+    padding-bottom: 3rem;
+  }
+
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+
+    li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 10px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1;
+      text-transform: uppercase;
+      color: #444444;
+      margin-bottom: 5px;
+      transition: all 0.3s ease-in-out;
+      font-family: "Poppins", sans-serif;
+
+      &:hover,
+      &.filter-active {
+        color: #009cea;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      background: rgba(255, 255, 255, 0.7);
+      position: absolute;
+      left: 30px;
+      right: 30px;
+      top: 30px;
+      bottom: 30px;
+      transition: all ease-in-out 0.3s;
+      z-index: 2;
+      opacity: 0;
+    }
+
+    img {
+      width: 100%;
+      min-height: 170px;
+    }
+
+    .portfolio-info {
+      opacity: 0;
+      position: absolute;
+      top: 10%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 3;
+      transition: all ease-in-out 0.3s;
+
+      h4 {
+        font-size: 20px;
+        color: #364146;
+        font-weight: 600;
+      }
+
+      p {
+        color: #364146;
+        font-size: 14px;
+        text-transform: uppercase;
+      }
+    }
+
+    .portfolio-links {
+      opacity: 0;
+      left: 0;
+      right: 0;
+      bottom: 10%;
+      text-align: center;
+      z-index: 3;
+      position: absolute;
+      transition: all ease-in-out 0.3s;
+
+      a {
+        color: #009cea;
+        margin: 0 2px;
+        font-size: 1rem;
+        display: inline-block;
+        transition: 0.3s;
+        background: #eaf8ff;
+        border-radius: 1rem;
+        padding: 10px 20px;
+
+        &:hover {
+          color: #fff;
+          background: #009cea;
+        }
+      }
+    }
+
+    &:hover {
+      &::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 1;
+      }
+
+      .portfolio-info {
+        opacity: 1;
+        top: calc(50% - 48px);
+
+        h4 {
+          font-weight: 700;
+        }
+      }
+
+      .portfolio-links {
+        opacity: 1;
+        bottom: calc(50% - 50px);
+      }
+    }
+  }
+}

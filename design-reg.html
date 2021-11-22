@@ -209,13 +209,11 @@
             </div>
             <div class="mb-3">
               <label for=""
-                >Submit WhatsApp content inviting registrants to IEEEXtreme
-                Programming Competition. You can do your own research about the
-                event, and prepare a write up that does not exceed 150
-                words.</label
+                >Have you held any designing position for any general body
+                before? If yes, name them.</label
               >
               <textarea
-                name="watsappContent"
+                name="designPositions"
                 id=""
                 cols="30"
                 rows="5"
@@ -223,7 +221,31 @@
                 required
               ></textarea>
             </div>
-            <input type="submit" value="Submit" class="btn btn-primary apply" />
+            <div class="mb-3">
+              <label for="">Designing tools that you are familiar with.</label>
+              <textarea
+                name="designTools"
+                id=""
+                cols="30"
+                rows="5"
+                class="form-control"
+                required
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label for=""
+                >Submit link (google drive) of your best 5 poster (or video)
+                works that you have designed (or edited).</label
+              >
+              <input
+                type="text"
+                name="projectsLink"
+                class="form-control"
+                placeholder="Projects Link"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary apply">Submit</button>
           </form>
         </div>
       </section>
@@ -359,7 +381,7 @@
     ></script>
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbyjdgFhL2CY5sh9_EbUEn6ALC64xkAibDj7BK1PzP9V-CuplrZIxvksdgirdaiWBFRh/exec";
+        "https://script.google.com/macros/s/AKfycbzgccoh0H-yX0trtOvVf5rpOT6NHGNqOS969jzFfQXzbS4j_AoKTH7vGeYdiIzGgKcn/exec";
       const form = document.forms["google-sheet"];
 
       form.addEventListener("submit", (e) => {

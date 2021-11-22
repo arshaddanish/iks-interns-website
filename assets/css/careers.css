@@ -1,0 +1,40 @@
+#careers {
+  margin-top: 3rem;
+  background: #f6f6f6;
+}
+
+#careers .careers-box {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#careers .team {
+  margin-bottom: 2.5rem;
+}
+
+#careers .team .role {
+  margin-bottom: 1.5rem;
+}
+
+#careers .team.x h3 {
+  margin-top: 2.5rem;
+}
+
+#careers .team h3 {
+  margin-bottom: 2rem;
+}
+
+#careers .team h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#careers ul {
+  line-height: 30px;
+}
+
+#careers .btn.apply {
+  margin-top: 0.5rem;
+  padding: 10px 60px;
+}

@@ -208,14 +208,19 @@
               ></textarea>
             </div>
             <div class="input-box">
-              <label for=""
-                >Submit WhatsApp content inviting registrants to IEEEXtreme
-                Programming Competition. You can do your own research about the
-                event, and prepare a write up that does not exceed 150
-                words.</label
-              >
+              <label for="">Share your GitHub profile link.</label>
+              <input
+                type="text"
+                name="github"
+                class="form-control"
+                placeholder="Github Link"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="">Web-related skills that you have:</label>
               <textarea
-                name="watsappContent"
+                name="webSkills"
                 id=""
                 cols="30"
                 rows="5"
@@ -223,7 +228,19 @@
                 required
               ></textarea>
             </div>
-            <input type="submit" value="Submit" class="btn btn-primary apply" />
+            <div class="input-box">
+              <label for=""
+                >Any other web-related works to mention(provide URLs):</label
+              >
+              <textarea
+                name="webProjects"
+                id=""
+                cols="30"
+                rows="5"
+                class="form-control"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary apply">Submit</button>
           </form>
         </div>
       </section>
@@ -359,7 +376,7 @@
     ></script>
     <script>
       const scriptURL =
-        "https://script.google.com/macros/s/AKfycbyjdgFhL2CY5sh9_EbUEn6ALC64xkAibDj7BK1PzP9V-CuplrZIxvksdgirdaiWBFRh/exec";
+        "https://script.google.com/macros/s/AKfycbwdkb6HGGIdl00wA9U5zN8JJxZDPSYGxD7VABLPqrW_ch3b6hSUvgBf05rPD0aNSbQlkg/exec";
       const form = document.forms["google-sheet"];
 
       form.addEventListener("submit", (e) => {
@@ -375,6 +392,7 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>

@@ -1,0 +1,19 @@
+#reg {
+  margin-top: 4rem;
+  background: #f6f6f6;
+}
+
+#reg h2 {
+  font-size: 1.75rem;
+}
+
+#reg .form-box {
+  margin-top: 3rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+#reg .btn.apply {
+  margin-top: 0.5rem;
+  padding: 10px 60px;
+}

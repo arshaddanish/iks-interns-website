@@ -1,6 +1,5 @@
 #careers {
   margin-top: 3rem;
-  background: #f6f6f6;
 }
 
 #careers .careers-box {
@@ -28,6 +27,7 @@
 #careers .team h4 {
   font-size: 1rem;
   font-weight: 600;
+  color: steelblue;
 }
 
 #careers ul {

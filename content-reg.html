@@ -156,14 +156,26 @@
               />
             </div>
             <div class="input-box">
-              <label for="exampleInputPassword1">Year Of Study</label>
-              <select class="form-select" name="yearOfStudy" required>
+              <label for="exampleInputPassword1"
+                >Which semester are you in?</label
+              >
+              <select class="form-select" name="semester" required>
                 <option disabled selected hidden>--Select--</option>
-                <option value="2021">2021</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-                <option value="2018">2018</option>
+                <option value="S1">S1</option>
+                <option value="S3">S3</option>
+                <option value="S5">S5</option>
+                <option value="S7">S7</option>
               </select>
+            </div>
+            <div class="input-box">
+              <label>Which branch are you studying in?</label>
+              <input
+                type="text"
+                name="branch"
+                class="form-control"
+                placeholder="Branch"
+                required
+              />
             </div>
             <div class="input-box">
               <label>Email</label>
@@ -186,7 +198,9 @@
               />
             </div>
             <div class="input-box">
-              <label for="">Reason for applying for the Interns Team.</label>
+              <label for=""
+                >Why did you choose to apply for the Interns team?</label
+              >
               <textarea
                 name="reason"
                 id=""
@@ -206,6 +220,15 @@
                 class="form-control"
                 required
               ></textarea>
+            </div>
+            <div class="input-box">
+              <label for="exampleInputPassword1"
+                >Position for which you wish to apply.</label
+              >
+              <select class="form-select" name="position" required>
+                <option disabled selected hidden>--Select--</option>
+                <option value="Content Creator">Content Creator</option>
+              </select>
             </div>
             <div class="input-box">
               <label for=""

@@ -24,9 +24,12 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/vendor/boxicons/css/boxicons.min.css" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -191,7 +194,9 @@
               />
             </div>
             <div class="input-box">
-              <label for="">Why did you choose to apply for the Interns team?</label>
+              <label for=""
+                >Why did you choose to apply for the Interns team?</label
+              >
               <textarea
                 name="reason"
                 id=""
@@ -218,10 +223,18 @@
               >
               <select class="form-select" name="position" required>
                 <option disabled selected hidden>--Select--</option>
-                <option value="Associate Designer - UI">Associate Designer - UI</option>
-                <option value="Associate Designer - Inked">Associate Designer - Inked</option>
-                <option value="Associate Designer - External">Associate Designer - External</option>
-                <option value="Associate Video Editor">Associate Video Editor</option>
+                <option value="Associate Designer - UI">
+                  Associate Designer - UI
+                </option>
+                <option value="Associate Designer - Inked">
+                  Associate Designer - Inked
+                </option>
+                <option value="Associate Designer - External">
+                  Associate Designer - External
+                </option>
+                <option value="Associate Video Editor">
+                  Associate Video Editor
+                </option>
               </select>
             </div>
             <div class="input-box">
@@ -408,9 +421,7 @@
           body: new FormData(form),
           mode: "no-cors",
         })
-          .then((response) =>
-            alert("Thank You! Your registration was successfully submitted!")
-          )
+          .then((response) => (window.location.href = "success.html"))
           .catch((error) => console.error("Error!", error.message));
       });
     </script>

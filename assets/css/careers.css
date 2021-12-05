@@ -43,3 +43,9 @@
   margin-top: 0.5rem;
   padding: 10px 40px;
 }
+
+#careers .closed {
+  margin-top: 0.5rem;
+  color: gray;
+  font-size: 0.8rem;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.scss";
-import mintMeetImg from "../../../assets/img/mint-meet.png";
+import agmImg from "../../../assets/img/agm.jpg";
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
       <div class="container">
         <div class="row">
           <div class="col-lg-5 my-auto" data-aos="zoom-in">
-            <img src={mintMeetImg} class="img-fluid" alt="" />
+            <img src={agmImg} class="img-fluid" alt="" />
           </div>
           <div
             class="col-lg-7 d-flex flex-column justify-contents-center"

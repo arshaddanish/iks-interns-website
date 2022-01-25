@@ -1,1 +1,1 @@
-Official Website Of IEEE Kerala Section Interns.
+Official Website of the IEEE Kerala Section Interns Team.

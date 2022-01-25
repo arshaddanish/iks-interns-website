@@ -111,23 +111,33 @@ export default function Footer(props) {
                 <ul>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a class="inactiveLink">Content Writing</a>
+                    <Link to="" class="inactiveLink" onClick={e => e.preventDefault()}>
+                      Content Writing
+                    </Link>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a class="inactiveLink">Poster Design</a>
+                    <Link to="" class="inactiveLink" onClick={e => e.preventDefault()}>
+                      Poster Design
+                    </Link>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a class="inactiveLink">Web Design</a>
+                    <Link to="" class="inactiveLink" onClick={e => e.preventDefault()}>
+                      Web Design
+                    </Link>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a class="inactiveLink">Web Development</a>
+                    <Link to="" class="inactiveLink" onClick={e => e.preventDefault()}>
+                      Web Development
+                    </Link>
                   </li>
                   <li>
                     <i class="bx bx-chevron-right"></i>{" "}
-                    <a class="inactiveLink">Event Coordination</a>
+                    <Link to="" class="inactiveLink" onClick={e => e.preventDefault()} onClick={e => e.preventDefault()}>
+                      Event Coordination
+                    </Link>
                   </li>
                 </ul>
               </div>

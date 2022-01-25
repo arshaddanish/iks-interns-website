@@ -47,7 +47,12 @@ export default function App() {
           </Routes>
         </ScrollToTop>
 
-        <Footer />
+        <Footer
+          aboutRef={aboutRef}
+          activitiesRef={activitiesRef}
+          initiativesRef={initiativesRef}
+          contactRef={contactRef}
+        />
       </Fragment>
     </Router>
   );

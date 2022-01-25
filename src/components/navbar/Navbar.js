@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import logo from "../../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -8,9 +9,9 @@ export default function Navbar() {
       <div class="container d-flex align-items-center">
         <div class="logo me-auto">
           <h1>
-            <a href="index.html">
+            <Link to="/">
               <img src={logo} alt="" class="img-fluid" />
-            </a>
+            </Link>
           </h1>
         </div>
 

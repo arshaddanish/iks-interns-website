@@ -37,11 +37,13 @@ import abhijith from "../../../assets/img/team/web/original/abhijith.jpeg";
 import gautham from "../../../assets/img/team/web/original/gautham.jpeg";
 import arshad from "../../../assets/img/team/web/original/arshad.jpeg";
 import aleena from "../../../assets/img/team/web/original/aleena.jpeg";
+import akhil from "../../../assets/img/team/web/original/akhil.jpeg";
 import gokul from "../../../assets/img/team/web/original/gokul.png";
 import abhijithT from "../../../assets/img/team/web/abhijith.jpeg";
 import gauthamT from "../../../assets/img/team/web/gautham.jpeg";
 import arshadT from "../../../assets/img/team/web/arshad.jpeg";
 import aleenaT from "../../../assets/img/team/web/aleena.jpeg";
+import akhilT from "../../../assets/img/team/web/akhil.jpeg";
 import gokulT from "../../../assets/img/team/web/gokul.png";
 
 export const TeamDescription = {
@@ -219,8 +221,8 @@ export const WebTeamData = [
   },
   {
     id: 5,
-    imgUrl: eby,
-    toonImgUrl: ebyT,
+    imgUrl: akhil,
+    toonImgUrl: akhilT,
     name: "Akhil Krishna U ",
     descr: "MCE Trivandrum",
     linkedin: "https://www.linkedin.com/in/akhil-krishna-u-855b47198",

@@ -9,7 +9,7 @@ import Team from "./team/Team";
 export default function Home(props) {
   return (
     <div>
-      <Landing />
+      <Landing aboutRef={props.aboutRef} />
       <main id="main">
         <About aboutRef={props.aboutRef} />
         <Services activitiesRef={props.activitiesRef} />

@@ -1,8 +1,14 @@
 import React from "react";
 import "./landing.scss";
 import heroImg from "../../../assets/img/hero-img.png";
+import { Link } from "react-router-dom";
 
-export default function Landing() {
+export default function Landing(props) {
+  const executeScroll = (e, ref) => {
+    e.preventDefault();
+    window.scrollTo(0, ref.current.offsetTop - 50);
+  };
+
   return (
     <section id="hero">
       <div class="container">
@@ -17,9 +23,13 @@ export default function Landing() {
                 We are proud IEEE volunteers trained By IEEE Kerala Section to
                 take a step further to professionalism.
               </h2>
-              <a href="#about" class="btn-get-started scrollto">
+              <Link
+                to=""
+                class="btn-get-started scrollto"
+                onClick={(e) => executeScroll(e, props.aboutRef)}
+              >
                 About Us
-              </a>
+              </Link>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img">

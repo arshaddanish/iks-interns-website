@@ -85,14 +85,14 @@ export default function Navbar(props) {
             </li>
 
             <li class="dropdown">
-              <a href="/">
-                <span>Download Center</span> <i class="bi bi-chevron-down"></i>
-              </a>
+              <Link to="">
+                <span>Resources</span> <i class="bi bi-chevron-down"></i>
+              </Link>
               <ul>
                 <li>
-                  <a class="nav-link scrollto" href="reports.html">
-                    Monthly Reports
-                  </a>
+                  <Link to="/reports2021" class="nav-link scrollto">
+                    Monthly Reports 2021
+                  </Link>
                 </li>
               </ul>
             </li>

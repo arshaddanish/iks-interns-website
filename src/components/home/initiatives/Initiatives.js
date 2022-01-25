@@ -1,9 +1,9 @@
 import React from "react";
-import "./portfolio.scss";
-import { portfolioData } from "./data";
-import PortfolioItem from "./PortfolioItem";
+import "./initiatives.scss";
+import { intitiativesData } from "./data";
+import InitiativeItem from "./InitiativeItem";
 
-export default function Portfolio() {
+export default function Initiatives() {
   return (
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
@@ -22,8 +22,8 @@ export default function Portfolio() {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          {portfolioData.map((item, index) => (
-            <PortfolioItem
+          {intitiativesData.map((item, index) => (
+            <InitiativeItem
               key={index}
               imgUrl={item.imgUrl}
               title={item.title}

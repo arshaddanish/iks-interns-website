@@ -3,7 +3,7 @@ import inkedImg from "../../../assets/img/portfolio/inked.png";
 import lbwImg from "../../../assets/img/portfolio/lbw.png";
 import cysImg from "../../../assets/img/portfolio/cys.png";
 
-export const portfolioData = [
+export const intitiativesData = [
   {
     id: 1,
     imgUrl: mintImg,

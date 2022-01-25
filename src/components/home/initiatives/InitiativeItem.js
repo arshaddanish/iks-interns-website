@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function PortfolioItem({ imgUrl, title, liveUrl, dtlRoute }) {
+export default function InitiativeItem({ imgUrl, title, liveUrl, dtlRoute }) {
   return (
     <div class="col-lg-4 col-md-6 portfolio-item">
       <div class="portfolio-wrap">

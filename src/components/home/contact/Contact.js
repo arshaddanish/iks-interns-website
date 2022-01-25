@@ -1,9 +1,9 @@
 import React from "react";
 import "./contact.scss";
 
-export default function Contact() {
+export default function Contact(props) {
   return (
-    <section id="contact" class="contact section-bg">
+    <section class="contact section-bg" ref={props.contactRef}>
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>

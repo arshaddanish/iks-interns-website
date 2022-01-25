@@ -3,9 +3,9 @@ import "./services.scss";
 import { servicesData } from "./data";
 import ServiceItem from "./ServiceItem";
 
-export default function Services() {
+export default function Services(props) {
   return (
-    <section id="services" class="services">
+    <section class="services" ref={props.activitiesRef}>
       <div class="container">
         <div class="section-title" data-aos="fade-up">
           <h2>Activities</h2>

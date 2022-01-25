@@ -2,9 +2,9 @@ import React from "react";
 import "./about.scss";
 import agmImg from "../../../assets/img/agm.jpg";
 
-export default function About() {
+export default function About(props) {
   return (
-    <section id="about" class="about">
+    <section class="about" ref={props.aboutRef}>
       <div class="container">
         <div class="row">
           <div class="col-lg-5 my-auto" data-aos="zoom-in">

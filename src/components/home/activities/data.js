@@ -1,4 +1,4 @@
-export const servicesData = [
+export const activitiesData = [
   {
     id: 1,
     icon: "bx bxl-dribbble",

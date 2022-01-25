@@ -1,12 +1,19 @@
 import React from "react";
 import "./navbar.scss";
 import logo from "../../assets/img/logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export default function Navbar(props) {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const executeScroll = (e, ref) => {
     e.preventDefault();
-    window.scrollTo(0, ref.current.offsetTop - 50);
+    if (location.pathname !== "/") {
+      navigate("/");
+    } else {
+      window.scrollTo(0, ref.current.offsetTop - 50);
+    }
   };
 
   return (
@@ -37,6 +44,7 @@ export default function Navbar(props) {
                 About Us
               </Link>
             </li>
+
             <li>
               <Link
                 to=""
@@ -46,6 +54,7 @@ export default function Navbar(props) {
                 Activities
               </Link>
             </li>
+
             <li>
               <Link
                 to=""
@@ -55,11 +64,26 @@ export default function Navbar(props) {
                 Initiatives
               </Link>
             </li>
-            <li>
-              <a class="nav-link scrollto" href="#team">
-                Team
-              </a>
+
+            <li class="dropdown">
+              <Link to="">
+                <span>Team</span> <i class="bi bi-chevron-down"></i>
+              </Link>
+              <ul>
+                <li>
+                  <Link to="/team2021" class="nav-link scrollto">
+                    Team 2021
+                  </Link>
+                </li>
+              </ul>
             </li>
+
+            <li>
+              <Link to="/careers" class="nav-link scrollto">
+                Careers
+              </Link>
+            </li>
+
             <li class="dropdown">
               <a href="/">
                 <span>Download Center</span> <i class="bi bi-chevron-down"></i>
@@ -72,6 +96,7 @@ export default function Navbar(props) {
                 </li>
               </ul>
             </li>
+
             <li>
               <Link
                 to=""

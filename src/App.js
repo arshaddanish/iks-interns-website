@@ -1,9 +1,11 @@
 import React, { Fragment, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./app.scss";
+import Careers from "./components/careers/Careers";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/home";
 import Navbar from "./components/navbar/Navbar";
+import Team2021 from "./components/team/team2021/Team";
 import ScrollToTop from "./utilities/ScrollToTop";
 
 export default function App() {
@@ -35,6 +37,9 @@ export default function App() {
                 />
               }
             ></Route>
+
+            <Route path="/team2021" element={<Team2021 />}></Route>
+            <Route path="/careers" element={<Careers />}></Route>
           </Routes>
         </ScrollToTop>
 

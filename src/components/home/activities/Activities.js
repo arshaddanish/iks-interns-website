@@ -1,7 +1,7 @@
 import React from "react";
-import "./services.scss";
-import { servicesData } from "./data";
-import ServiceItem from "./ServiceItem";
+import "./activities.scss";
+import { activitiesData } from "./data";
+import ActivityItem from "./ActivityItem";
 
 export default function Services(props) {
   return (
@@ -22,8 +22,8 @@ export default function Services(props) {
         </div>
 
         <div class="row">
-          {servicesData.map((service, index) => (
-            <ServiceItem
+          {activitiesData.map((service, index) => (
+            <ActivityItem
               key={index}
               icon={service.icon}
               title={service.title}

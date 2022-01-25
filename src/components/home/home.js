@@ -3,8 +3,7 @@ import About from "./about/About";
 import Contact from "./contact/Contact";
 import Initiatives from "./initiatives/Initiatives";
 import Landing from "./landing/Landing";
-import Services from "./services/Services";
-import Team from "./team/Team";
+import Activities from "./activities/Activities";
 
 export default function Home(props) {
   return (
@@ -12,9 +11,8 @@ export default function Home(props) {
       <Landing aboutRef={props.aboutRef} />
       <main id="main">
         <About aboutRef={props.aboutRef} />
-        <Services activitiesRef={props.activitiesRef} />
+        <Activities activitiesRef={props.activitiesRef} />
         <Initiatives initiativesRef={props.initiativesRef} />
-        <Team />
         <Contact contactRef={props.contactRef} />
       </main>
     </div>

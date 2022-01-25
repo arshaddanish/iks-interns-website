@@ -11,7 +11,7 @@ import TeamItem from "./TeamItem";
 
 export default function Team() {
   return (
-    <section id="team" class="team">
+    <section id="team" class="team section-bg team-x">
       <div class="container mentor-team">
         <div class="section-title" data-aos="fade-up">
           <h2>{TeamDescription.mentors.title}</h2>

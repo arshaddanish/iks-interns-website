@@ -5,7 +5,7 @@ import Careers from "./components/careers/Careers";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/home";
 import Navbar from "./components/navbar/Navbar";
-import Team2021 from "./components/team/team2021/Team";
+import Team2021 from "./components/team/team2021/Team2021";
 import ScrollToTop from "./utilities/ScrollToTop";
 
 export default function App() {

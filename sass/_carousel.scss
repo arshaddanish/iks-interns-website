@@ -55,3 +55,21 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .carousel {
+    .content-box {
+      padding: 1rem;
+
+      h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+      }
+
+      h2 {
+        font-size: 1rem;
+        line-height: 24px;
+      }
+    }
+  }
+}

@@ -266,6 +266,69 @@
   display: block;
 }
 
+.carousel {
+  margin-top: 70px;
+  position: relative;
+}
+
+.carousel img {
+  height: 92vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+}
+
+.carousel .content-box {
+  max-width: 800px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.carousel .content-box h1,
+.carousel .content-box h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.carousel .content-box h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.carousel .content-box h2 {
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.carousel .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 3px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+  background: #009cea;
+  margin-top: 1rem;
+}
+
+.carousel .btn-get-started:hover {
+  background: #008bd1;
+}
+
 #hero {
   width: 100%;
   background-image: url("../img/hero-bg.png");

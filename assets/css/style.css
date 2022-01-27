@@ -1429,7 +1429,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
+  padding: 25px 0 10px;
   background: #f4f6f7;
   min-height: 40px;
   margin-top: 70px;

@@ -397,6 +397,13 @@
   }
 }
 
+.awards img {
+  padding: 0 1rem;
+  margin: 4rem 0 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
 .services .section-title {
   padding-bottom: 3rem;
 }

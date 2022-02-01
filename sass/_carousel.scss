@@ -62,14 +62,18 @@
       padding: 1rem;
 
       h1 {
-        font-size: 2rem;
-        line-height: 30px;
+        font-size: 1.4rem;
+        line-height: 28px;
+        font-weight: 600;
       }
 
       h2 {
-        font-size: 1rem;
-        line-height: 24px;
+        display: none;
       }
+    }
+
+    .btn-get-started {
+      margin-top: 2rem;
     }
   }
 }

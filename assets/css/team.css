@@ -12,6 +12,9 @@ body {
     min-height: 100vh;
     padding-top: 40px;
 }
+#team-jumbo-info {
+    padding-right: 20px;
+}
 #team-jumbo-info > h1 {
     color: #142945;
     font-weight: bold;
@@ -130,29 +133,32 @@ h6 {
         flex-direction: column;
         height: auto;
         align-items: center;
-        padding: 0px 20px;
+        padding: 0px 40px;
         padding-top: 30px;
     }
     #team-jumbotron > div {
-        text-align: left;
-        width: 100%;
         text-align: center;
+        width: 100%;
         margin-top: 10px;
     }
+
     #team-jumbo-info > button {
         margin-top: 10px;
         margin-bottom: 30px;
     }
     #team-jumbo-info {
-        text-align: left;
+        text-align: left !important;
         display: block;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         margin-top: 40px;
+        max-width: 80%;
+        margin-left: -5px;
     }
-    #team-jumbo-info > p >br {
+    
+    #team-jumbo-info > p > br {
         display: none;
     }
     #team-jumbo-img > img {

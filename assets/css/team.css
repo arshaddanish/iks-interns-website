@@ -76,7 +76,7 @@ body {
     text-align: center;
     margin: 40px 0px;
     min-width: 253px;
-    animation-duration: 0.5s !important;
+    transition-duration: 0.2s !important;
 }
 .single-line-profile > div {
     margin: 40px 20px;

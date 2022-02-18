@@ -9,7 +9,7 @@ body {
     padding: 0 40px;
     padding-left: 60px;
     font-family: 'DM Sans', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 40px;
 }
 #team-jumbo-info > h1 {
@@ -129,11 +129,18 @@ h6 {
         flex-direction: column;
         height: auto;
         align-items: center;
+        padding: 0px 20px;
+        padding-top: 30px;
     }
     #team-jumbotron > div {
         text-align: left;
         width: 100%;
         text-align: center;
+        margin-top: 10px;
+    }
+    #team-jumbo-info > button {
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
     #team-jumbo-info {
         text-align: left;
@@ -152,6 +159,10 @@ h6 {
     }
     .team-profile > div {
         margin: 40px 20px;
+    }
+    h2 {
+        font-weight: bolder;
+        font-size: 30px;
     }
 }
 

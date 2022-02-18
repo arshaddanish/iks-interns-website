@@ -1,0 +1,163 @@
+body {
+    background-color: #f6f6f6;
+}
+#team-jumbotron {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    padding-left: 60px;
+    font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+    padding-top: 40px;
+}
+#team-jumbo-info > h1 {
+    color: #142945;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+#team-jumbo-info > p {
+    color: #565656;
+    font-size: 18px;
+}
+#team-jumbo-info > button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+#team-jumbo-info > button > a {
+    color: white;
+    text-decoration: none;
+}
+#team-jumbo-info > button:hover {
+    opacity: 0.8;
+}
+#team-jumbo-img > img {
+    max-height: 90vh;
+}
+
+.team-info {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif !important;
+}
+.team-info > h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: black;
+}
+.team-info > p {
+    font-size: 18px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -30px;
+}
+.team-profile > div {
+    text-align: center;
+    margin: 40px 0px;
+    min-width: 253px;
+}
+.single-line-profile > div {
+    margin: 40px 20px;
+}
+
+.team-profile > div > h6 {
+    font-family: 'DM Sans', sans-serif;
+    color: #636363;
+    margin-top: 5px;
+}
+.team-profile > div > img {
+    width: 169px;
+    height: 176px;
+}
+.team-profile > div:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+.icon {
+    margin-top: -10px;
+    width: 20px !important;
+    height: 20px !important;
+}
+h4 {
+    font-family: 'DM Sans';
+    color: black;
+    font-weight: 700;
+}
+.team-profile > div > h4 {
+    margin-top: 10px;
+    margin-bottom: -2px;
+}
+h6 {
+    font-weight: 400;
+}
+.team-container {
+    padding-bottom: 30px;
+}
+.arrow_icon {
+    margin-left: 3px;
+}
+
+@media screen and (max-width: 1100px) {
+    #team-jumbo-info {
+        margin-top: 20px;
+    }
+    #team-jumbo-img > img {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 860px) {
+    #team-jumbotron {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    #team-jumbotron > div {
+        text-align: left;
+        width: 100%;
+        text-align: center;
+    }
+    #team-jumbo-info {
+        text-align: left;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 40px;
+    }
+    #team-jumbo-info > p >br {
+        display: none;
+    }
+    #team-jumbo-img > img {
+        width: 80%;
+    }
+    .team-profile > div {
+        margin: 40px 20px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #team-jumbo-img > img {
+        width: 100%;
+    }
+}

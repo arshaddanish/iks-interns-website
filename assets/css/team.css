@@ -73,6 +73,7 @@ body {
     text-align: center;
     margin: 40px 0px;
     min-width: 253px;
+    animation-duration: 0.5s !important;
 }
 .single-line-profile > div {
     margin: 40px 20px;
@@ -88,9 +89,9 @@ body {
     height: 176px;
 }
 .team-profile > div:hover {
-    opacity: 0.8;
+    transform: scale(1.1) !important;
     cursor: pointer;
-    
+    opacity: 0.8 !important;
 }
 .icon {
     margin-top: -10px;

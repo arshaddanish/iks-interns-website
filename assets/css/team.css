@@ -25,6 +25,7 @@ body {
 #team-jumbo-info > p {
     color: #565656;
     font-size: 16px;
+    letter-spacing: -0.02cm;
 }
 #team-jumbo-info > button {
     background-color: #142945;

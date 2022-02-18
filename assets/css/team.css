@@ -18,20 +18,21 @@ body {
 #team-jumbo-info > h1 {
     color: #142945;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 64px;
     margin-bottom: 20px;
+    letter-spacing: -0.05cm !important;
 }
 #team-jumbo-info > p {
     color: #565656;
-    font-size: 18px;
+    font-size: 16px;
 }
 #team-jumbo-info > button {
-    background-color: black;
+    background-color: #142945;
     color: white;
     outline: none;
     border: none;
     padding: 10px 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 #team-jumbo-info > button > a {
     color: white;
@@ -55,23 +56,24 @@ body {
     color: black;
 }
 .team-info > p {
-    font-size: 18px;
-    width: 85%;
+    font-size: 16px;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
-    color: #565656
+    color: #565656;
+    letter-spacing: -0.02cm;
 }
 .team-profile {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 30px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -30px;
+    margin-bottom: -50px;
 }
 .team-profile > div {
     text-align: center;
@@ -89,28 +91,35 @@ body {
     margin-top: 5px;
 }
 .team-profile > div > img {
-    width: 169px;
-    height: 176px;
+    width: 159px;
+    height: 166px;
 }
-.team-profile > div:hover {
+/* .team-profile > div:hover {
     transform: scale(1.1) !important;
     cursor: pointer;
     opacity: 0.8 !important;
-}
+} */
 .icon {
     margin-top: -10px;
     width: 20px !important;
     height: 20px !important;
 }
+a > img:hover {
+    opacity: 0.7;
+}
 h2 {
     font-family: 'DM Sans';
     color: black;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: -0.05cm !important;
 }
 h4 {
     font-family: 'DM Sans';
     color: black;
-    font-weight: 700;
+    font-weight: bold !important;
+    font-size: 21px;
+    letter-spacing: -0.02cm !important;
 }
 .team-profile > div > h4 {
     margin-top: 10px;
@@ -118,6 +127,7 @@ h4 {
 }
 h6 {
     font-weight: 400;
+    letter-spacing: -0.02cm !important;
 }
 .team-container {
     padding-bottom: 30px;
@@ -126,12 +136,26 @@ h6 {
     margin-left: 3px;
 }
 
+#footer {
+    margin-top: 50px;
+}
+
 @media screen and (max-width: 1100px) {
     #team-jumbo-info {
         margin-top: 20px;
     }
     #team-jumbo-img > img {
         width: 400px;
+    }
+    h1 {
+        font-size: 55px !important;
+    }
+    h2 {
+        font-weight: bolder;
+        font-size: 27px;
+    }
+    p {
+        font-size: 16px !important;
     }
 }
 @media screen and (max-width: 860px) {
@@ -173,10 +197,7 @@ h6 {
     .team-profile > div {
         margin: 40px 20px;
     }
-    h2 {
-        font-weight: bolder;
-        font-size: 30px;
-    }
+    
 }
 
 

@@ -9,6 +9,7 @@ body {
     padding: 0 40px;
     padding-left: 60px;
     font-family: 'DM Sans', sans-serif !important;
+    /*min-height: 600px;*/
     min-height: 100vh;
     padding-top: 40px;
 }
@@ -21,7 +22,7 @@ body {
     font-size: 64px;
     font-family: 'DM Sans', sans-serif !important;
     margin-bottom: 20px;
-    letter-spacing: -0.01cm !important;
+    letter-spacing: -2px !important;
 }
 #team-jumbo-info > p {
     color: #565656;
@@ -46,7 +47,7 @@ body {
     opacity: 0.8;
 }
 #team-jumbo-img > img {
-    max-height: 90vh;
+    max-height: 70vh;
 }
 
 .team-info {
@@ -145,6 +146,9 @@ h6 {
 }
 
 @media screen and (max-width: 1100px) {
+    #team-jumbotron {
+        min-height: 600px;
+    }
     #team-jumbo-info {
         margin-top: 20px;
     }
@@ -152,7 +156,7 @@ h6 {
         width: 400px;
     }
     h1 {
-        font-size: 55px !important;
+        font-size: 51px !important;
     }
     h2 {
         font-weight: bolder;
@@ -218,7 +222,7 @@ h6 {
 
 @media screen and (max-width: 500px) {
     h1 {
-        font-size: 50px !important;
+        font-size: 46px !important;
     }
     #team-jumbo-info {
         max-width: 90%;

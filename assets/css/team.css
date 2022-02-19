@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     padding: 0 40px;
     padding-left: 60px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif !important;
     min-height: 100vh;
     padding-top: 40px;
 }
@@ -19,13 +19,16 @@ body {
     color: #142945;
     font-weight: bold;
     font-size: 64px;
+    font-family: 'DM Sans', sans-serif !important;
     margin-bottom: 20px;
-    letter-spacing: -0.05cm !important;
+    letter-spacing: -0.01cm !important;
 }
 #team-jumbo-info > p {
     color: #565656;
     font-size: 16px !important;
     letter-spacing: -0.02cm;
+    max-width: 75%;
+    margin-top: 26px;
 }
 #team-jumbo-info > button {
     background-color: #142945;
@@ -188,9 +191,8 @@ h6 {
         max-width: 80%;
         margin-left: -5px;
     }
-    
-    #team-jumbo-info > p > br {
-        display: none;
+    #team-jumbo-info > p {
+        max-width: 100% !important;
     }
     #team-jumbo-img > img {
         width: 80%;
@@ -211,5 +213,19 @@ h6 {
     }
     p {
         font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px !important;
+    }
+    #team-jumbo-info {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 350px) {
+    #team-jumbo-info {
+        padding-right: 0;
     }
 }
